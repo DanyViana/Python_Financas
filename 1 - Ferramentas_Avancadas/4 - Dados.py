@@ -28,3 +28,7 @@ for t in tickers: #Para cada ticket em tickers
     new_data[t] = wb.DataReader(t, data_source = 'yahoo', start = '2022-3-1')['Adj Close'] #Me forneça o preço de fechamento ajustado para cada ticker (para cada instância) para cada dia desde 1/3/22. No final indicar o nome exato da coluna que queremos. 
 
 print(new_data)
+
+#Outras fontes para retirar os dados no lugar o Yahoo: 'morningstar' ou 'iex'. Atenção as datas e aos nomes dos campos, pois cada fornecedor (API) tem uma diferença. 
+
+#Lembre-se que o python é case sensitive! Digite os nomes da coluna da mesma forma que é mostrado! 
