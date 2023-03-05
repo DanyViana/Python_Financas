@@ -14,7 +14,7 @@ print(B3)
 #A diferença entre a coluna Close e Adj Close é devido ao pagamento de dividendos aos acionistas e outras mudanças nos preços. 
 #Sádado, domingos e feriados nacionais não possuem dados devido ao fechamento do mercado. São dados de apenas os dias de negociações. 
 
-print(B3.info()) #Mostrar os dados examinados, você consegue verificar se não tem nenhum dado faltante, os tipode dados. 
+print(B3.info()) #Mostrar os dados examinados, você consegue verificar se não tem nenhum dado faltante, os tipo de dados. 
 
 print(B3.head()) #Checkar as primeiras 5 linhas da base de dados. 
 print(B3.tail()) #Checkar as últimas 5 linhas da base de dados. 
